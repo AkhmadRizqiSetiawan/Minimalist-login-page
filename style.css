@@ -164,6 +164,10 @@ html, body{
         display: none;
     }
     .login-menu{
+        width: 600px;
+        max-width: 600px
+    }
+    .register-menu{
         width: 900px;
         max-width: 900px;
     }
