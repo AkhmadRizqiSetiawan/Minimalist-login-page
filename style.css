@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,200&display=swap');
+
+html, body{
+    margin: 0;
+    padding:0 ;
+    width: 100%;
+    height: 100%;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    
+}
+.login-menu{
+    max-width: 414px;
+    align-items: center;
+    margin: 0px auto;
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+.login-menu img{
+    width: 100%;
+    height: 200px;
+}
+.login-menu h1{
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding-left: 0px;
+    color: #6c9653;
+    font-size: 40px;
+    padding-left: 30px;
+}
+.login-page form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+.input{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 0 0 10px 0;
+    /* background-color: green; */
+    border-bottom: 1px solid gray;
+
+}
+.input input {
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.input.emai{
+    border-bottom: 1px solid rgb(10, 10, 10);
+}
+.input p{
+    width: 20%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    
+}
+.input i{
+    width: 20%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.login-btn{
+    background-color: #6c9653;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 60px;
+    margin: 10px 0 0px 0;
+    border-radius:510px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.login-option-container{
+    text-align: center;
+}
+.login-option-container p{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+
+}
+.login-option{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.login-option a{
+    width: 30%;
+    height: 60px;
+    display: flex;
+    border-radius: 15px;
+    border:2px solid gray;
+    text-decoration: none;
+}
+.login-option a i{
+    margin: auto;
+    font-size: 40px;
+    text-decoration: none;
+}
+.footer{
+    text-align: center;
+    margin-top: 10px;
+}
+.footer p{
+    font-size: 20px;
+
+}
+.footer p a{
+    text-decoration: none;
+    color: #6c9653;
+    font-weight: bold;
+}
+
+.register-menu img{
+    display: none;
+}
+
+.register .input{
+    height: 70px;
+}
+.register form button{
+    margin-bottom: 30px;
+}
+
+@media(min-width: 414px){
+    .login-menu img{
+        display: none;
+    }
+    .login-menu{
+        max-width: 716px;
+    }
+}
